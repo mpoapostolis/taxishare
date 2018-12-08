@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import I18n from "./I18n";
+import MainLayout from "./layout/Main";
 
 class App extends Component {
   render() {
@@ -13,10 +14,7 @@ class App extends Component {
         <I18n.Provider value={t}>
           <BrowserRouter>
             <Switch>
-              <Route
-                path="/"
-                render={routeProps => <h1 >Welcome</h1>}
-              />
+              <Route component={MainLayout} />
             </Switch>
           </BrowserRouter>
         </I18n.Provider>

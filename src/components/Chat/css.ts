@@ -1,5 +1,6 @@
-import { css } from "@emotion/core";
+import { css } from "emotion";
 
 export const chatContainer = css`
-  grid-area: "chat";
+  grid-area: chat;
+  border: solid 1px aqua;
 `;
