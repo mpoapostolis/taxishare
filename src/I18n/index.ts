@@ -1,7 +1,7 @@
-import React from "react"
+import React from "react";
 
-export type Translate = (key: string) => string
+export type Translate = (key: string) => string;
 
-const I18n = React.createContext<Translate>(() => '')
+const I18n = React.createContext<Translate>(() => "");
 
-export default I18n
+export default I18n;
