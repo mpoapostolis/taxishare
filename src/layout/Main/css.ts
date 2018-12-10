@@ -5,7 +5,7 @@ export const layoutContainer = css`
   display: grid;
   grid-gap: 10px;
   grid-template-rows: 55px repeat(2, 1fr);
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 200px repeat(2, 1fr);
   grid-template-areas:
     "header header header"
     "userList chat map"

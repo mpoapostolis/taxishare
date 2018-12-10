@@ -8,7 +8,48 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.dark-primary-color {
+  background: #0288d1;
+}
+.default-primary-color {
+  background: #03a9f4;
+}
+.light-primary-color {
+  background: #b3e5fc;
+}
+.text-primary-color {
+  color: #ffffff;
+}
+.accent-color {
+  background: #ff5722;
+}
+.primary-text-color {
+  color: #212121;
+}
+.secondary-text-color {
+  color: #757575;
+}
+.divider-color {
+  border-color: #bdbdbd;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #0001;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0288d1;
 }
